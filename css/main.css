@@ -1,0 +1,157 @@
+*,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+header nav ul {
+  padding: 20px 10px;
+  text-align: right;
+}
+
+header nav ul li {
+  margin: 0 5px;
+  display: inline-block;
+}
+
+header nav ul li a {
+  font-family: Helvetica, sans-serif;
+  color: #555;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+header nav ul li:last-child {
+  margin-left: 15px;
+}
+
+header nav ul li:last-child a {
+  font-size: 16px;
+  padding: 10px;
+}
+
+header nav ul li:last-child a:hover {
+  font-size: 16px;
+  background-color: #eeeeee;
+  border-radius: 50%;
+}
+
+main {
+  width: 100%;
+  text-align: center;
+  margin-top: 105px;
+}
+
+#logo {
+  margin: 35px 0;
+}
+
+#logo img {
+  width: 270px;
+}
+
+#form div {
+  width: 570px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#form div i {
+  position: absolute;
+  color: #8a8a8a;
+  font-weight: 400;
+}
+
+#form div .fa-search {
+  top: 15px;
+  left: 20px;
+}
+
+#form div .fa-microphone {
+  top: 15px;
+  right: 20px;
+}
+
+#form div input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 13px 10px 13px 50px;
+  font-size: 14px;
+  border-radius: 25px;
+  outline: none;
+  border: 1px solid #f3f3f3;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+#history {
+  width: 600px;
+  margin: 25px auto 0;
+}
+
+#history a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+#history a div {
+  box-sizing: border-box;
+  width: 112px;
+  margin: 0 auto;
+  color: #555;
+  padding: 15px 5px;
+  border-radius: 3px;
+}
+
+#history a div:hover {
+  background-color: #e2e2e2;
+  transition: all 0.2s ease;
+}
+
+#history a div figure {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  background-color: #f2f2f2;
+  border-radius: 50%;
+}
+
+#history a div figure i {
+  margin-top: 15px;
+  font-size: 20px;
+  color: #3668c4;
+}
+
+#history a:last-child div figure i {
+  color: #444;
+  font-weight: 200;
+}
+
+#history a div p {
+  font-family: Helvetica, sans-serif;
+  margin: 10px 0;
+  font-size: 12px;
+}
+
+#button {
+  cursor: pointer;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: #5990f7;
+  border: none;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+}
+#button:hover {
+  background-color: #f7f6f6;
+}
+
+#button i {
+  margin-right: 5px;
+}
